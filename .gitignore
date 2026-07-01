@@ -1,8 +1,28 @@
+# Secrets
 .env
+
+# Python
 __pycache__/
 *.pyc
 venv/
 .venv/
+
+# OS
 .DS_Store
+
+# Logs / data
 chroma.log
+*.log
 data/
+
+# Dev scripts (keep locally, don't push)
+ingest.py
+scrape.py
+inspect_xml.py
+parse_xml.py
+test_chroma.py
+urls.txt
+
+# IDE (optional)
+.vscode/
+.idea/
