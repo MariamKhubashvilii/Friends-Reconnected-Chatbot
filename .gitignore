@@ -16,8 +16,6 @@ chroma.log
 data/
 
 # Dev scripts (keep locally, don't push)
-ingest.py
-scrape.py
 inspect_xml.py
 parse_xml.py
 test_chroma.py
